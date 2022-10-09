@@ -53,7 +53,7 @@ const HeroSection = () => {
                         
                         <div className="mt-5 hero__btns d-flex align-items-center gap-4">
                             <button className="btn hire__btn">
-                                <a href="https://drive.google.com/file/d/1aOrSqFt3chArK8c_OdjU7l3pDXpyff9R/view?usp=sharing" target='__blank'>Resume</a>
+                                <a href="https://drive.google.com/file/d/1sKf1OErNltsCPjz3JRV9DJR-SL6IIZaJ/view?usp=sharing" target='__blank'>Resume</a>
                             </button>
                             <button className="btn" url="#contact" onClick={contactBtnFunc}>Contact</button>
                         </div>
@@ -63,7 +63,7 @@ const HeroSection = () => {
 
                 <Col lg='6' md='6' className="imgCol">
                     <div className="hero__img">
-                        <img src={heroImg} height="400px" width="400px" alt="" className="imageClass"/>
+                        <img  src={heroImg}  alt="" className="imageClass"/>
                     </div>
                 </Col>
 
