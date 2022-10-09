@@ -1,0 +1,42 @@
+.form{
+    width: 100%;
+    background: #132347;
+    padding: 30px;
+    background-repeat: 5px;
+}
+
+.form__input input,
+.form__input textarea{
+    width: 100%;
+    padding: 10px 15px;
+    color: #fff;
+    margin-bottom: 15px;
+    background-color: #102048;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+
+.submit__btn{
+    margin-top: 15px;
+    padding: 7px 25px;
+    font-size: 0.9rem;
+    background: #7865ff;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.notification{
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+@media only screen and (max-width: 992px){
+    .submit__btn{
+        padding: 5px 25px;
+        font-size: 0.8rem;
+    }
+}
